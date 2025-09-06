@@ -6,42 +6,106 @@
   <title>SJ Gaming Zone</title>
   <style>
     body {
-      background: #1e1e1e;
-      color: white;
       font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
       text-align: center;
     }
     h1 {
-      margin: 20px 0;
+      margin: 20px;
+      color: #00ffcc;
     }
-    .game-container {
-      margin: 30px auto;
-      max-width: 900px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .game {
+      background: #222;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .game h2 {
+      margin: 10px 0;
+      font-size: 20px;
+      color: #ffcc00;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
   <h1>🎮 Welcome to SJ Gaming Zone 🎮</h1>
-
-  <!-- MotoX3M -->
-  <div class="game-container">
-    <h2>Moto X3M</h2>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/moto-x3m" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
+  <div class="grid">
+    
+    <div class="game">
+      <h2>Moto X3M</h2>
+      <iframe src="https://crazygames-poki.com/embed/moto-x3m" allowfullscreen></iframe>
     </div>
-  </div>
 
-  <!-- Paper Minecraft -->
-  <div class="game-container">
-    <h2>Paper Minecraft</h2>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/paper-minecraft" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
+    <div class="game">
+      <h2>Paper Minecraft</h2>
+      <iframe src="https://crazygames-poki.com/embed/paper-minecraft" allowfullscreen></iframe>
     </div>
-  </div>
 
+    <div class="game">
+      <h2>Minecraft Classic</h2>
+      <iframe src="https://classic.minecraft.net/" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Subway Surfers</h2>
+      <iframe src="https://crazygames-poki.com/embed/subway-surfers" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Stickman Hook</h2>
+      <iframe src="https://crazygames-poki.com/embed/stickman-hook" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Snake Game</h2>
+      <iframe src="https://crazygames-poki.com/embed/snake" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Vex 7</h2>
+      <iframe src="https://crazygames-poki.com/embed/vex-7" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Archery World Tour</h2>
+      <iframe src="https://crazygames-poki.com/embed/archery-world-tour" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Drift Boss</h2>
+      <iframe src="https://crazygames-poki.com/embed/drift-boss" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Stack Ball</h2>
+      <iframe src="https://crazygames-poki.com/embed/stack-ball" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>OvO</h2>
+      <iframe src="https://crazygames-poki.com/embed/ovo" allowfullscreen></iframe>
+    </div>
+
+    <div class="game">
+      <h2>Stick Merge</h2>
+      <iframe src="https://crazygames-poki.com/embed/stick-merge" allowfullscreen></iframe>
+    </div>
+
+  </div>
 </body>
 </html>
