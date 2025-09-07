@@ -7,195 +7,124 @@
   <style>
     body {
       margin: 0;
+      padding: 0;
       font-family: Arial, sans-serif;
-      background-color: #0a0a0a;
-      color: white;
+      background-color: #000;
+      color: #fff;
       text-align: center;
     }
 
-    /* Banner Section */
-    .banner {
-      position: relative;
-      height: 350px;
-      background: url('https://wallpapercave.com/wp/wp7424399.jpg') no-repeat center center/cover;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .banner img {
-      width: 180px;
-      height: auto;
-      border-radius: 50%;
-      border: 3px solid #0ff;
-      box-shadow: 0px 0px 25px #0ff, 0px 0px 50px #0ff;
-      animation: glow 2s infinite alternate;
-    }
-
-    @keyframes glow {
-      from {
-        box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
-      }
-      to {
-        box-shadow: 0 0 40px #ff00ff, 0 0 80px #ff00ff;
-      }
-    }
-
-    .banner h1 {
+    .site-logo {
       margin-top: 20px;
-      font-size: 3rem;
-      color: #fff;
-      text-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff, 0 0 40px #0ff;
-      animation: textGlow 2s infinite alternate;
+      width: 200px;
+      height: auto;
+      filter: drop-shadow(0px 0px 20px cyan);
     }
 
-    @keyframes textGlow {
-      from {
-        text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-        color: #0ff;
-      }
-      to {
-        text-shadow: 0 0 20px #ff00ff, 0 0 40px #ff00ff;
-        color: #ff00ff;
-      }
+    h1 {
+      font-size: 3em;
+      color: #00e5ff;
+      text-shadow: 0 0 15px #00e5ff, 0 0 30px #00e5ff;
+      margin-top: 10px;
     }
 
     h2 {
-      margin: 30px 0 15px;
-      font-size: 2rem;
-      color: #0ff;
-      text-shadow: 0 0 10px #0ff, 0 0 20px #ff00ff;
+      font-size: 1.5em;
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 25px #ff00ff;
+      margin-bottom: 30px;
     }
 
     h3 {
-      margin: 15px 0;
-      color: #ffcc00;
-      text-shadow: 0 0 5px #ffcc00, 0 0 10px #ff6600;
+      margin-top: 40px;
+      font-size: 1.8em;
+      color: orange;
+      text-shadow: 0 0 10px orange, 0 0 25px orange;
     }
 
-    .game {
-      margin: 30px auto;
-      max-width: 800px;
+    .game-container {
+      margin: 20px auto;
+      width: 80%;
+      max-width: 900px;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 500px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #0ff;
     }
   </style>
 </head>
 <body>
-  <!-- Banner Section -->
-  <div class="banner">
-    <img src="A_logo_for_&quot;SJ_Gaming_Zone&quot;_features_a_dark_backgr.png" alt="SJ Gaming Zone Logo">
-    <h1>Welcome to SJ Gaming Zone</h1>
-  </div>
 
+  <!-- Logo -->
+  <img src="logo.png" alt="SJ Gaming Zone Logo" class="site-logo">
+
+  <!-- Neon Heading -->
+  <h1>Welcome to SJ Gaming Zone</h1>
   <h2>🎮 Play Awesome Games Below 🎮</h2>
 
   <!-- Games Section -->
-  <div class="game">
+  <div class="game-container">
     <h3>Moto X3M</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/moto-x3m" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+    <iframe src="https://crazygames-poki.com/embed/moto-x3m" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
+  <div class="game-container">
     <h3>Paper Minecraft</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/paper-minecraft" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+    <iframe src="https://crazygames-poki.com/embed/paper-minecraft" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
+  <div class="game-container">
+    <h3>Minecraft Classic</h3>
+    <iframe src="https://classic.minecraft.net/" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
     <h3>Subway Surfers</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/subway-surfers" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+    <iframe src="https://crazygames-poki.com/embed/subway-surfers" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
+  <div class="game-container">
     <h3>Stickman Hook</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/stickman-hook" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+    <iframe src="https://crazygames-poki.com/embed/stickman-hook" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
-    <h3>Temple Run 2</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/temple-run-2" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+  <div class="game-container">
+    <h3>Snake Game</h3>
+    <iframe src="https://crazygames-poki.com/embed/snake" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
+  <div class="game-container">
     <h3>Vex 7</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/vex-7" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+    <iframe src="https://crazygames-poki.com/embed/vex-7" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
+  <div class="game-container">
+    <h3>Archery World Tour</h3>
+    <iframe src="https://crazygames-poki.com/embed/archery-world-tour" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
     <h3>Drift Boss</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/drift-boss" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+    <iframe src="https://crazygames-poki.com/embed/drift-boss" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
-    <h3>Fireboy and Watergirl</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/fireboy-and-watergirl-5-elements" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+  <div class="game-container">
+    <h3>Stack Ball</h3>
+    <iframe src="https://crazygames-poki.com/embed/stack-ball" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
-    <h3>Soccer Skills Euro Cup</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/soccer-skills-euro-cup" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+  <div class="game-container">
+    <h3>OvO</h3>
+    <iframe src="https://crazygames-poki.com/embed/ovo" allowfullscreen></iframe>
   </div>
 
-  <div class="game">
-    <h3>Basketball Stars</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/basketball-stars" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
-  </div>
-
-  <div class="game">
-    <h3>1v1 LOL</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/1v1-lol" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
-  </div>
-
-  <div class="game">
-    <h3>Hill Climb Racing</h3>
-    <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-      <iframe src="https://crazygames-poki.com/embed/hill-climb-racing" frameborder="0" allowfullscreen scrolling="no"
-        style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-      </iframe>
-    </div>
+  <div class="game-container">
+    <h3>Stick Merge</h3>
+    <iframe src="https://crazygames-poki.com/embed/stick-merge" allowfullscreen></iframe>
   </div>
 
 </body>
