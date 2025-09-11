@@ -1,4 +1,94 @@
-<h3>Subway Surfers</h3>
-<div class="game-container">
-  <iframe src="https://poki.com/embed/subway-surfers" frameborder="0" allowfullscreen></iframe>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SJ Gaming Zone</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .logo {
+      margin-top: 20px;
+    }
+    .logo img {
+      width: 200px;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { filter: drop-shadow(0 0 10px red); }
+      to { filter: drop-shadow(0 0 30px red); }
+    }
+    h1 {
+      font-size: 3em;
+      color: #0ff;
+      text-shadow: 0 0 20px #0ff;
+    }
+    h2 {
+      font-size: 2em;
+      margin-top: 10px;
+      color: #ff00ff;
+      text-shadow: 0 0 15px #ff00ff;
+    }
+    h3 {
+      font-size: 2em;
+      margin-top: 30px;
+      color: #ffa500;
+      text-shadow: 0 0 15px #ffa500;
+    }
+    .game-container {
+      margin: 20px auto;
+      max-width: 900px;
+      border: 3px solid #0ff;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 0 20px #0ff;
+    }
+    iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+    }
+    @media (max-width: 600px) {
+      iframe {
+        height: 300px;
+      }
+      h1 { font-size: 2em; }
+      h2 { font-size: 1.5em; }
+      h3 { font-size: 1.5em; }
+    }
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #111;
+      color: #0ff;
+      font-size: 1.2em;
+      text-shadow: 0 0 10px #0ff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo">
+    <img src="logo.png" alt="SJ Gaming Zone Logo">
+  </div>
+
+  <!-- Headings -->
+  <h1>Welcome to SJ Gaming Zone</h1>
+  <h2>🎮 Play Awesome Games Below 🎮</h2>
+
+  <!-- Game Section -->
+  <h3>Moto X3M</h3>
+  <div class="game-container">
+    <iframe src="https://www.crazygames.com/embed/moto-x3m" allowfullscreen></iframe>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ by SJ Gaming Zone</p>
+  </footer>
+</body>
+</html>
