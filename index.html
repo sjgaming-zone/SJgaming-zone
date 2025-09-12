@@ -6,89 +6,126 @@
   <title>SJ Gaming Zone</title>
   <style>
     body {
-      background-color: black;
-      color: white;
-      text-align: center;
+      margin: 0;
+      padding: 0;
       font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
     }
-    .logo {
+
+    .site-logo {
       margin-top: 20px;
-    }
-    .logo img {
       width: 200px;
-      animation: glow 2s infinite alternate;
+      height: auto;
+      filter: drop-shadow(0px 0px 20px cyan);
     }
-    @keyframes glow {
-      from { filter: drop-shadow(0 0 10px red); }
-      to { filter: drop-shadow(0 0 30px red); }
-    }
+
     h1 {
       font-size: 3em;
-      color: #0ff;
-      text-shadow: 0 0 20px #0ff;
-    }
-    h2 {
-      font-size: 2em;
+      color: #00e5ff;
+      text-shadow: 0 0 15px #00e5ff, 0 0 30px #00e5ff;
       margin-top: 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
       color: #ff00ff;
-      text-shadow: 0 0 15px #ff00ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 25px #ff00ff;
+      margin-bottom: 30px;
     }
+
     h3 {
-      font-size: 2em;
-      margin-top: 30px;
-      color: #ffa500;
-      text-shadow: 0 0 15px #ffa500;
+      margin-top: 40px;
+      font-size: 1.8em;
+      color: orange;
+      text-shadow: 0 0 10px orange, 0 0 25px orange;
     }
+
     .game-container {
       margin: 20px auto;
+      width: 80%;
       max-width: 900px;
-      border: 3px solid #0ff;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: 0 0 20px #0ff;
     }
+
     iframe {
+      border: none;
       width: 100%;
       height: 500px;
-      border: none;
-    }
-    @media (max-width: 600px) {
-      iframe {
-        height: 300px;
-      }
-      h1 { font-size: 2em; }
-      h2 { font-size: 1.5em; }
-      h3 { font-size: 1.5em; }
-    }
-    footer {
-      margin-top: 50px;
-      padding: 20px;
-      background: #111;
-      color: #0ff;
-      font-size: 1.2em;
-      text-shadow: 0 0 10px #0ff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #0ff;
     }
   </style>
 </head>
 <body>
-  <!-- Logo -->
-  <div class="logo">
-    <img src="logo.png" alt="SJ Gaming Zone Logo">
-  </div>
 
-  <!-- Headings -->
+  <!-- Logo -->
+  <img src="logo.png" alt="SJ Gaming Zone Logo" class="site-logo">
+
+  <!-- Neon Heading -->
   <h1>Welcome to SJ Gaming Zone</h1>
   <h2>🎮 Play Awesome Games Below 🎮</h2>
 
-  <!-- Game Section -->
-  <h3>Moto X3M</h3>
+  <!-- Games Section -->
   <div class="game-container">
-    <iframe src="https://www.crazygames.com/embed/moto-x3m" allowfullscreen></iframe>
+    <h3>Moto X3M</h3>
+    <iframe src="https://crazygames-poki.com/embed/moto-x3m" allowfullscreen></iframe>
   </div>
 
-  <!-- Footer -->
-  <footer>
-    <p>Made with ❤️ by SJ Gaming Zone</p>
-  </footer>
+  <div class="game-container">
+    <h3>Paper Minecraft</h3>
+    <iframe src="https://crazygames-poki.com/embed/paper-minecraft" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Minecraft Classic</h3>
+    <iframe src="https://classic.minecraft.net/" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Subway Surfers</h3>
+    <iframe src="https://crazygames-poki.com/embed/subway-surfers" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Stickman Hook</h3>
+    <iframe src="https://crazygames-poki.com/embed/stickman-hook" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Snake Game</h3>
+    <iframe src="https://crazygames-poki.com/embed/snake" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Vex 7</h3>
+    <iframe src="https://crazygames-poki.com/embed/vex-7" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Archery World Tour</h3>
+    <iframe src="https://crazygames-poki.com/embed/archery-world-tour" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Drift Boss</h3>
+    <iframe src="https://crazygames-poki.com/embed/drift-boss" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Stack Ball</h3>
+    <iframe src="https://crazygames-poki.com/embed/stack-ball" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>OvO</h3>
+    <iframe src="https://crazygames-poki.com/embed/ovo" allowfullscreen></iframe>
+  </div>
+
+  <div class="game-container">
+    <h3>Stick Merge</h3>
+    <iframe src="https://crazygames-poki.com/embed/stick-merge" allowfullscreen></iframe>
+  </div>
+
 </body>
 </html>
