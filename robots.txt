@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sjgaming-zone.github.io/SJgaming-zone/sitemap.xml
